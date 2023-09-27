@@ -15,8 +15,8 @@ body {
 
 .button{
   grid-column: 1 / -1;
-  background-color: #631f7c;
-  background-image: linear-gradient(to right, #631f7c, #8727b5);
+  background-color: #0bb698;
+  background-image: linear-gradient(to right, #0bb698, #8727b5);
   border-radius: 6px;
   border: none;
   color: white;
@@ -24,8 +24,8 @@ body {
 }
 
 .navbar {
-  background-color: #631f7c;
-  background-image: linear-gradient(to right, #631f7c, #8727b5);
+  background-color: #0bb698;
+  background-image: linear-gradient(to right, #0bb698, #8727b5);
 }
 
 .border-input {
@@ -35,7 +35,7 @@ body {
 }
 
 .meme-img {
-  height: 25rem;
+  height: 28rem;
   object-fit: contain;
 }
 .user-image {
@@ -45,6 +45,61 @@ body {
   border: 1px solid black;
   width: 3rem;
   height: 3rem;
+}
+input, textarea {
+  margin-bottom: 15px;
+  height: 30px;
+  width: 12rem;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+.work-status {
+  font-size: 1rem;
+}
+.box {
+  width: 2rem;
+}
+.meme {
+  margin: auto;
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  position: relative;
+}
+.meme h2 {
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+.meme-text-top {
+  top: 0;
+}
+.meme-text-bottom {
+  bottom: 0;
+}
+.app {
+  background-color: #e76535;
+}
+.dark {
+  background-color: #1b1d21;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
